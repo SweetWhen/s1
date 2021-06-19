@@ -1,0 +1,5 @@
+package test
+message requeset {
+	string name = 0;
+	int age = 1;
+}
