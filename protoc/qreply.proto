@@ -1,0 +1,11 @@
+package test
+message requeset {
+	string name = 0;
+	int age = 1;
+}
+
+message response {
+	int age = 0;
+	int sex = 1;
+	string addr = 2;
+}
